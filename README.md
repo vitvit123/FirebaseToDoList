@@ -36,7 +36,7 @@ If you don’t have a Firebase project yet, follow these steps:
 4. Under **Your apps**, add a new web app
 5. Copy the Firebase config keys (`apiKey`, `authDomain`, `projectId`, etc.)
 6. Paste these values into your `.env` file with the corresponding environment variables
-
+7. Create the database: navigate to **Firestore Database** and select **Start in test mode**
 
 ## ⏱️ Estimated Time Spent
 Total time spent on this project around: ~3 hours
