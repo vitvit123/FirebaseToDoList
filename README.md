@@ -23,10 +23,24 @@ This is a Todo List web application built with Next.js, React, and Firebase Fire
 
 ## 🚀 Getting Started
 1. Clone the repo
-2. Install dependencies
-3. Add your Firebase config in `/lib/firebase.ts`
-4. Run the dev server
-5. Build for production:
+2. Install dependencies (npm install)
+3. Rename .env.example to .env and paste your Firebase credentials there
+4. Run the dev server (npm run dev)
+
+## 🔧 Firebase Setup
+If you don’t have a Firebase project yet, follow these steps:
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/)
+2. Click “Add project” and follow the prompts to create a new project
+3. In your project dashboard, navigate to **Project Settings** (gear icon)
+4. Under **Your apps**, add a new web app
+5. Copy the Firebase config keys (`apiKey`, `authDomain`, `projectId`, etc.)
+6. Paste these values into your `.env` file with the corresponding environment variables
+
+
+## ⏱️ Estimated Time Spent
+Total time spent on this project around: ~3 hours
+
 
 
 
